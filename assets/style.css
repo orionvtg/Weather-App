@@ -1,9 +1,15 @@
 body {
     font-family: sans-serif;
+    background-color: black;
+    color: limegreen;
     }
     
+    .center {
+      text-align:center;
+    }
+
     .container {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -32,7 +38,7 @@ body {
     }
     
     .right__content {
-        width: 80%;
+        width: 70%;
         margin-left: 3% ;
     }
     
@@ -47,19 +53,19 @@ body {
     }
     
     .right__content .result__box p {
-        font-size:14px;
+        font-size:20px;
     }
     
      .weather__boxes .weather__box {
         width: 15%;
         margin: 10px auto;
-        font-size: 12px;
+        font-size: 15px;
         display: inline-block;
-        border: 1px solid #c3c3c3;
-        height: 150px;
+        border: 2px solid green;
+        height: 160px;
         padding: 10px;
         border-radius: 5px;
-        background: #003bde;
-        color: #fff;
+        background: greenyellow;
+        color: black  ;
     }
     
