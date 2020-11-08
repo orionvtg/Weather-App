@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather Data API</title>
+    <link href="./assets/style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/36afc40636.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Weather API App</h1>
+    <div class="container">
+      <div class="left__content">
+        <form>
+          <input type="text" name="name" id="name" value="" placeholder="name"/>
+          <button onclick="myFunction(event)">Submit</button>
+        </form>
+        <div class="history">
+            <div id="history__box"> 
+              
+            </div>
+        </div>
+      </div>
+      <div class="right__content">
+        <div class="result__box">
+          <h1><span class="location">Arizona (8/12/2020)</span> <span class="weather__icon"></span></h1>
+          <p>Temperature:<span class="temp"></span> </p>
+          <p >Humidity: <span class="hum"></span></p>
+          <p >Wind Speed:<span class="wind"></span> </p>
+          <p>UV Index:<span class="uv-index"></span> </p>
+        </div>
+        <div class="main__result">
+          <p>5 day forecast</p>
+          <div id="weather__container">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="./assets/script.js"></script>
+
+  </body>
+</html>
+
